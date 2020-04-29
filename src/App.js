@@ -12,7 +12,7 @@ function App(){
     <BrowserRouter>
     <header className="header">
     <h2>RAVIKISHORE Resume</h2>
-      </header>
+    </header>
     <Route exact path="/profile" component={Profile}/>
     <Route exact path="/profile1" component={Profile1}/>
     <Route exact path="/" component={Home} />
@@ -52,21 +52,15 @@ function App(){
       </section>
       )
     }
-
     let Home1=()=>{
     return (
     <section >
     <footer className="footer">
-    <div>
     <h2>Thank you</h2>
-    </div>
-    <div>
-    <i class="fa fa-whatsapp" aria-hidden="true"></i>
-
-    </div>
     </footer>
     </section>
     )
   }
+
 
 export default App;

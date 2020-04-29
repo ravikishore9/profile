@@ -20,9 +20,7 @@ import Data from './data/data.json';
  			<a herf={"tel:"+specificProfile.basicInformation.mobile}>
  			{specificProfile.basicInformation.mobile}</a>
  			</div>
- 			<footer className="footer">
-    		<p><h2>Thank you</h2><h5>for visiting my profile</h5></p>
-    		</footer>
+ 			<div className="footer"><h2>Thank you</h2><h5>for visiting my Profile</h5></div>
  			</div>
 
  			<div className="card2">
