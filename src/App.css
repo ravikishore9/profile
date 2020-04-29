@@ -53,7 +53,7 @@
 }
 .card-top{
   padding: 1%;
-  background: #bdbdbd;
+  background: #0b2f3a;
 }
 
 .card-bottom{
@@ -75,13 +75,15 @@
   border-radius: 10px;
 }
 .header {
+  display: flex;
   background: #0b2f3a;
+  flex-flow: row-wrap;
   color: #fff;
-  padding: 1%;
-  text-align: center;
+  padding: 5px;
   width: 100%;
-  box-shadow: 18px 18px 18px -18px #000f;
-  margin: 1%;
+  box-shadow: 8px 8px 8px -8px #000f;
+  margin: 5px;
+  position: fixed;
 }
 .header a{
   color: #fff;

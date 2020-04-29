@@ -11,8 +11,20 @@ function App(){
     <section>
     <BrowserRouter>
     <header className="header">
-    <h2>RAVIKISHORE Resume</h2>
+    {info.map((k,l)=>(
+      <Link to={{pathname:"/",data:{id:l}}} key={l}>{"Home"}</Link>
+      ))}<br />
+
+    {info.map((k,l)=>(
+      <Link to={{pathname:"/profile",data:{id:l}}} key={l}>{"profile"}</Link>
+      ))}<br />
+
+      {info.map((k,l)=>(
+      <Link to={{pathname:"/profile1",data:{id:l}}} key={l}>{"profile1"}</Link>
+      ))}
+
     </header>
+
     <Route exact path="/profile" component={Profile}/>
     <Route exact path="/profile1" component={Profile1}/>
     <Route exact path="/" component={Home} />
