@@ -1,0 +1,54 @@
+{
+	"profiles":[
+		{
+			"basicInformation":{
+				"Name":"RaviKishore",
+				"Role":"Technical Skills Trainer",
+				"email":"ravikishore@apssdc.in",
+				"mobile":"+91 7989570681"
+
+			},
+			"education":[
+				{
+					"degree":"B-tech(CSE)",
+					"Institution":"Pydah College of Engineering and Technology"
+				},
+				{
+					"degree":"Intermediate",
+					"Institution":"Vedagayatri jr college"
+				},
+				{"degree":"SSC",
+					"Institution":"Vidyanikhetan High school"}
+			],
+			"Skills":[
+				{
+					"skill":"programming Languages",
+					"pl":"C, Python, C#, JavaScript"
+				},
+				{
+					"skill":"WebTechnologies",
+					"pl":"HTML 5, CSS 3"
+				},
+				{
+					"skill":"FrameWorks",
+					"pl":"Django, reactjs"
+				},
+				{
+					"skill":"Database",
+					"pl":"MySQL"
+				},
+				{
+					"skill":"MobileGame Designing",
+					"pl":"Unity Gamining Engine,BuildBox"
+				},
+				{
+					"skill":"Others",
+					"pl":"Source Code Management Git and GitHub , Google Producity Enhancement Tools , Raptor , MIT App Inventor"
+				}
+
+			]
+
+		}
+
+	]
+}
